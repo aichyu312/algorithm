@@ -1,4 +1,4 @@
-//www.acmicpc.net/problem/8393 성공 
+//www.acmicpc.net/problem/8393 성공
 
 import java.util.Scanner;
 
