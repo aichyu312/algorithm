@@ -10,15 +10,11 @@ public class q1110 {
         int cnt = 0;
         int cycle = N;
 
-        while (true) {
-            N=(N%10)*10+((N/10 + N%10)%10);
+        do {
+            N = (N % 10) * 10 + ((N / 10 + N % 10) % 10);
             cnt++;
 
-            if (cycle==N){
-                break;
-            }
-
-        }
+        } while (cycle != N);
         System.out.println(cnt);
 
     }
