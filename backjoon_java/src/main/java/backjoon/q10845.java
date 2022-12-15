@@ -17,7 +17,6 @@ public class q10845 {
         for (int i = 0; i < n; i++) {
             String[] input = br.readLine().split(" ");
 
-
             switch (input[0]) {
                 case "push":
                     last = Integer.parseInt(input[1]);
